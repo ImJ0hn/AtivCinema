@@ -16,7 +16,7 @@ use App\Http\Controllers\poltronaController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 })->name('home');
 
 Route::get('/cadastro-filme',[filmeController::class,'buscaCadastroFilme'])->name('buscar-cadastro-filme');

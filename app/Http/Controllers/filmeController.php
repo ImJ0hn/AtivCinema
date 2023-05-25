@@ -74,5 +74,11 @@ class filmeController extends Controller
 
         return Redirect::route('gerenciar-filme');
     }
+
+
+    public function MostrarPagFilme(){
+        return View('filmes');
+    }
+
 }
 

@@ -19,17 +19,17 @@
   <div class="container-nav">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="index.php">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="filmes.html">Filmes</a>
+              <a class="nav-link" href="/mostrar-pag-filme">Filmes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="compras.html">Comprar</a>
+              <a class="nav-link" href="cadastro-poltrona">Reservar</a>
               </li>
             <li class="nav-item">
             <li class="nav-item dropdown">
@@ -41,9 +41,15 @@
               </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Gerenciar</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="{{'/gerenciar-filme'}}">Filme</a></li>
+                    <li><a class="dropdown-item" href="{{'/gerenciar-funcionario'}}">Funcionário</a></li>
+                    <li><a class="dropdown-item" href="{{'/gerenciar-poltrona'}}">Poltrona</a></li>
+                </ul>
+              </li>
             </li>
-          </ul>
           
           
         </div>

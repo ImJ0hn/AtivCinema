@@ -40,3 +40,8 @@ body
     margin-left: 2%;
     margin-top: 5%;
 }
+
+label
+{
+    color: white;
+}

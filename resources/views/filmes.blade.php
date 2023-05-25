@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,37 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <link href="/css/style.css" rel="stylesheet"> 
 </head>
 <body>
+
+<div class="container-nav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.php">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/mostrar-pag-filme">Filmes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastro-poltrona">Reservar</a>
+              </li>
+            <li class="nav-item">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Cadastrar</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="{{'/cadastro-filme'}}">Filme</a></li>
+                    <li><a class="dropdown-item" href="{{'/cadastro-funcionario'}}">Funcionário</a></li>
+                </ul>
+              </li>
+            </li>
+            <li class="nav-item">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Gerenciar</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="{{'/gerenciar-filme'}}">Filme</a></li>
+                    <li><a class="dropdown-item" href="{{'/gerenciar-funcionario'}}">Funcionário</a></li>
+                    <li><a class="dropdown-item" href="{{'/gerenciar-poltrona'}}">Poltrona</a></li>
+                </ul>
+              </li>
+            </li>
+          
+          
+        </div>
+      </div>
+    </nav> 
+  </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-        <div class="container-nav">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Home</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="filmes.html">Filmes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="compras.html">Comprar</a>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="cadastro.html">Cadastro</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                  </li>
-                </ul>
-                
-              </div>
-            </div>
-          </nav> 
+        
         </div>
 
 <h1>Destaques</h1>

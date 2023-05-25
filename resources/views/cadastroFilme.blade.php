@@ -1,7 +1,7 @@
 @extends('padrao')
 
 @section('content') 
-
+<link href="/css/style.css" rel="stylesheet"> 
 <form enctype="multipart/form-data" method="post" action="{{route('cadastro-filme')}}">
     @csrf
             <div class="mb-3 form-check">

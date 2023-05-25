@@ -31,6 +31,8 @@ Route::get('/gerenciar-funcionario',[funcionarioController::class,'MostrarGerenc
 Route::get('/alterar-funcionario/{registrosFuncionarios}',[funcionarioController::class,'MostrarRegistrosFuncionario'])->name('mostrar-funcionario');
 Route::put('/gerenciar-funcionario/{registrosFuncionarios}',[funcionarioController::class,'AlterarBancoFuncionario'])->name('alterar-banco-funcionario');
 
+Route::get('/mostrar-pag-filme',[filmeController::class,'MostrarPagFilme'])->name('mostrar-pag-filme');
+
 
 //Poltrona
 

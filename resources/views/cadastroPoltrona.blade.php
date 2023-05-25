@@ -1,7 +1,7 @@
 @extends('padrao')
 
 @section('content') 
-
+<link href="/css/style.css" rel="stylesheet"> 
 <style>
 .container
 {

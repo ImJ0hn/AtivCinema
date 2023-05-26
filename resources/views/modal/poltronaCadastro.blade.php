@@ -5,16 +5,23 @@
   display:flex;
   width:70%;
   flex-wrap:wrap; 
+  color:black;
 }
 
 form
 {
   margin:3px;
+  
 }
 
 .btn-primary
 {
   font-size:0.9rem;
+}
+
+label
+{
+  color:black;
 }
 </style>
 

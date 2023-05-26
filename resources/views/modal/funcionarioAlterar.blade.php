@@ -49,3 +49,10 @@
     </div>
   </div>
 </div>
+
+<style>
+label
+{
+  color:black;
+}
+  </style>

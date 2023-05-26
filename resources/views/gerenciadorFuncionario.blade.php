@@ -1,6 +1,6 @@
 @extends('padrao')
 @section('content')
-
+<link href="/css/style.css" rel="stylesheet"> 
 <div class="container mt-5">
 <form method="get" action="{{route('gerenciar-funcionario')}}">
   <div class="mb-3 row">
